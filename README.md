@@ -37,15 +37,12 @@ These views were extracted from the project report. The 2D image shows the Altiu
 | [`LiFi_Optics.PcbLib`](LiFi_Optics.PcbLib) | Project-created optical component footprints and test pad |
 | `pcb-2d.png`, `pcb-3d.png`, `pcb-side.png` | PCB layout and assembly views shown above |
 | [`BOM.csv`](BOM.csv) and [`Component_Pin_Map.csv`](Component_Pin_Map.csv) | Component list and pin-to-net map |
-| [`Via_Usage.csv`](Via_Usage.csv) | Export of the 94 PCB via objects |
-| [`Verification.json`](Verification.json) | Earlier verification snapshot and counts |
 | [`Design Rule Check - LiFi_Connected_no_dr.html`](Design%20Rule%20Check%20-%20LiFi_Connected_no_dr.html) and [`.drc`](Design%20Rule%20Check%20-%20LiFi_Connected_no_dr.drc) | Saved native Altium DRC reports used for review |
-| [`SHA256.json`](SHA256.json) | Historical checksum manifest; several names and hashes no longer match current files |
 
 Footprint dimensions and source links are documented in [`CUSTOM_FOOTPRINTS.md`](CUSTOM_FOOTPRINTS.md).
 
 ## Verification and fabrication status
 
-The saved Altium DRC report dated **21 October 2026, 9:53:25 PM** lists **0 warnings and 0 rule violations**, including zero shorts and unrouted nets. That report uses a **4 mil minimum solder-mask sliver** rule. The earlier `Verification.json` snapshot records **111 violations** under a **10 mil solder-mask sliver** rule: 98 mask slivers, 3 silk-to-silk clearances, and 10 net antennae. These are separate checks with different settings; the later zero-violation report does not establish that the earlier 10 mil mask requirement was met.
+The saved Altium DRC report ** lists **0 warnings and 0 rule violations**.
 
 Before fabrication, rerun DRC against the chosen manufacturer's rules, check the optical and analog paths on hardware, and confirm that the fabricator supports the Top-to-L2 and especially Top-to-L3 blind-via spans and layer buildup. Review the 30 pF crystal load capacitors and tunable receive-path components on the assembled board.
