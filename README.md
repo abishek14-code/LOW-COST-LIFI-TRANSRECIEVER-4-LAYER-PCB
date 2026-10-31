@@ -1,7 +1,6 @@
 # Li-Fi Transceiver PCB — Via Types
 
-An Altium Designer hardware project for a four-layer visible-light communication transceiver. It combines an STM32-based controller, a red LED optical transmitter, and a BPW34 photodiode receiver. This revision documents the use of blind and through vias across the board stack.
-
+An Altium Designer hardware project for a four-layer visible-light communication transceiver. It combines an STM32-based controller, a red LED optical transmitter, and a BPW34 photodiode receiver. 
 ## Design overview
 
 - **Optical transmit path:** STM32 control drives an AO3400A MOSFET and Kingbright WP7113SRD red LED.
