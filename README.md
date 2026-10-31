@@ -77,11 +77,11 @@ This repository contains hardware design files and review data. It does not cont
 
 These views were extracted from the project report. The 2D image shows the Altium layout; the 3D images show the component side and board profile.
 
-![2D PCB layout](images/pcb-2d.png)
+![2D PCB layout](pcb-2d.png)
 
-![3D PCB assembly](images/pcb-3d.png)
+![3D PCB assembly](pcb-3d.png)
 
-![PCB assembly side view](images/pcb-side.png)
+![PCB assembly side view](pcb-side.png)
 
 ## Files
 
