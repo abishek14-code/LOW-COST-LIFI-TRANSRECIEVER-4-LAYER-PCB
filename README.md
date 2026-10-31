@@ -1,4 +1,4 @@
-# Li-Fi Transceiver PCB — Via Types
+# Li-Fi Transceiver PCB 
 
 An Altium Designer hardware project for a four-layer visible-light communication transceiver. It combines an STM32-based controller, a red LED optical transmitter, and a BPW34 photodiode receiver. 
 ## Design overview
